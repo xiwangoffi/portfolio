@@ -133,7 +133,7 @@ function App() {
           <Project />
         </section>
         <section id="contact" className="min-h-screen flex flex-col items-center justify-center text-white">
-          <div className="w-full max-w-screen-lg">
+          <div className="w-full max-w-screen-lg z-10">
             <Contact />
           </div>
         </section>

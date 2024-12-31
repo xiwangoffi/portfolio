@@ -1,5 +1,8 @@
 import React from 'react';
 import Slider from 'react-slick';
+import Uneven from '../assets/Uneven.png'
+import Moteur from '../assets/Moteur.png'
+import Encapsulation from '../assets/Encapsulation.jpg'
 import { useLanguage } from '../contexts/LanguageContext';
 
 const ProjectCarousel = () => {
@@ -8,34 +11,34 @@ const ProjectCarousel = () => {
   const texts = {
     fr: [
       {
-        image: '/Uneven.png',
+        image: Uneven,
         title: 'Uneven',
         description: "Uneven est un jeu réalisé dans le cadre d'un stage de 2ème année au Gaming Campus de Lyon sur une durée de 4 mois que nous avons décidé de prolonger. Uneven est un jeu d'aventure basé sur les assemblages de couleurs ayant chacune leur <b>monde et mécanique respective</b>, réalisé sur Unity 3D. Disponible en 2025 sur Steam, déjà actuellement en Wishlist. <br /><u>Caractéristique de ce projet</u>, nous sommes une équipe de 6 développeurs à plusieurs casquette et d'un Marketing Manager. <br /><b><u>Chef de projet, Développeur, Marketing & Communication:</u></b> Victor MARTINAN <br /><b><u>Développeur & Narrative Designer:</u></b> Lilian LAFIN & Enzo PHILIPPE <br /><b><u>Développeur CC & Environnement:</u></b> Benjamin TURCAT <br /><b><u>Développeur Système & UI | 2D Artist:</u></b> Benjamin ARHANCET <br /><b><u>Développeur IA, VFX & Shader Artist, Bossfight:</u></b> Romain BOISSEAU <br /><b><u>Communication & Marketing:</u></b> Anisse SI LOUIS <br /><b>Linkedin:</b> <a href='https://www.linkedin.com/company/nesaku-games/posts/?feedView=all' target='_blank' rel='noopener noreferrer' style='color: blue; text-decoration: underline;'>https://www.linkedin.com/Nesaku-Games</a>"
       },
       {
-        image: '/Moteur.png',
+        image: Moteur,
         title: 'Moteur 3D - DX12',
         description: "Le moteur 3D avec DirectX12 (C++) a été réalisé dans le cadre d'un projet de 2ème année au Gaming Campus de Lyon, l'objectif de ce dernier était en équipe de 4 de: <br /><br /><b>Concevoir un moteur avec DX12</b> <br /><b>Créer ses propres formes 3D grâce aux Vertex</b> <br /><b>Réaliser des effets de particules</b> <br /><b>Réaliser un space shooter en utilisant notre moteur 3D</b> <br /><b>Comprendre le principe de fonctionnement d'un moteur 3D</b><br /><br />Ce projet avait pour but d'être une introduction aux moteurs 3D que nous allions utiliser par la suite comme Unity & Unreal Engine qui sont plus complet afin que nous comprenions leur fonctionnement afin de ne pas être perdu d'autant plus que nous allons devoir utiliser d'autres logiciels 3D pour réaliser des effets complexes à l'avenir, tel que Blender qui utilise certaines des notions vues lors de ce projet."
       },
       {
-        image: '/Encapsulation.jpg',
+        image: Encapsulation,
         title: 'Encapsulation',
         description: "Le projet d'encapsulation C++ a été réalisé dans le cadre d'un projet avancé en 3ème année visant à exploiter directives du préprocesseur et les principes d'encapsulation en programmation orientée objet. L'objectif principal était de développer une application unique compatible avec deux technologies distinces: <b>SFML</b> et <b>Windows API</b>, tout en garantissant leur coexistence au sein d'un même projet. <br /><br/><b>Objectifs spécifiques:</b> <br /><b>- Implémenter les directives C++ (#ifdef) pour gérer les différences de compilation</b> <br /><b>- Encapsuler rigoureusement les classes pour éviter tout conflit entre SFML et Windows API</b> <br /><b>- Faire rebondir des balles dans une fenêtre graphique</b> <br /><b>- Comparer les performances (FPS) entre SFML et Windows API</b> <br /><br />Ce projet constituait un défi technique intéressant, une encapsulation inadéquate aurait provoqué des conflits et des crashs, mettant en évidence l'importance de structurer et isoler les dépendances dans le code."
       },
     ],
     en: [
       {
-        image: '/Uneven.png',
+        image: Uneven,
         title: 'Uneven',
         description: "Uneven is a game developed during a second-year internship at the Gaming Campus in Lyon over a period of 4 months, which we decided to extend. Uneven is an adventure game based on color combinations, each having its own <b>world and respective mechanics</b>, created on Unity 3D. Available in 2025 on Steam, currently on Wishlist. <br /><u>Project characteristics</u>, we are a team of 6 developers with multiple roles and a Marketing Manager. <br /><b><u>Project Manager, Developer, Marketing & Communication:</u></b> Victor MARTINAN <br /><b><u>Developer & Narrative Designer:</u></b> Lilian LAFIN & Enzo PHILIPPE <br /><b><u>CC Developer & Environment:</u></b> Benjamin TURCAT <br /><b><u>System & UI Developer | 2D Artist:</u></b> Benjamin ARHANCET <br /><b><u>AI Developer, VFX & Shader Artist, Bossfight:</u></b> Romain BOISSEAU <br /><b><u>Communication & Marketing:</u></b> Anisse SI LOUIS <br /><b>Linkedin:</b> <a href='https://www.linkedin.com/company/nesaku-games/posts/?feedView=all' target='_blank' rel='noopener noreferrer' style='color: blue; text-decoration: underline;'>https://www.linkedin.com/Nesaku-Games</a>"
       },
       {
-        image: '/Moteur.png',
+        image: Moteur,
         title: '3D Engine - DX12',
         description: "The 3D engine with DirectX12 (C++) was developed as part of a second-year project at the Gaming Campus in Lyon. The objective of this project was for a team of 4 to: <br /><br /><b>Design an engine with DX12</b> <br /><b>Create their own 3D shapes using Vertex</b> <br /><b>Create particle effects</b> <br /><b>Create a space shooter using our 3D engine</b> <br /><b>Understand the principle of a 3D engine</b><br /><br />This project aimed to introduce 3D engines that we would use later like Unity & Unreal Engine, which are more complete, so that we understand their functioning to not be lost. Moreover, we will have to use other 3D software to create complex effects in the future, such as Blender, which uses some of the concepts seen during this project."
       },
       {
-        image: '/Encapsulation.jpg',
+        image: Encapsulation,
         title: 'Encapsulation',
         description: "The C++ encapsulation project was carried out as part of an advanced third-year project aimed at exploiting preprocessor directives and encapsulation principles in object-oriented programming. The main objective was to develop a unique application compatible with two distinct technologies: <b>SFML</b> and <b>Windows API</b>, while ensuring their coexistence within the same project. <br /><br/><b>Specific objectives:</b> <br /><b>- Implement C++ directives (#ifdef) to manage compilation differences</b> <br /><b>- Rigorously encapsulate classes to avoid conflicts between SFML and Windows API</b> <br /><b>- Make balls bounce in a graphical window</b> <br /><b>- Compare performance (FPS) between SFML and Windows API</b> <br /><br />This project was an interesting technical challenge, as inadequate encapsulation would have caused conflicts and crashes, highlighting the importance of structuring and isolating dependencies in the code."
       },
