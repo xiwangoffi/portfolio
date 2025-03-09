@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.383f3c55.css",
-    "main.js": "/portfolio/static/js/main.71ec5913.js",
+    "main.js": "/portfolio/static/js/main.bc5cd008.js",
     "static/js/488.9561f9b8.chunk.js": "/portfolio/static/js/488.9561f9b8.chunk.js",
     "assets/me.jpg": "/portfolio/assets/me.jpg",
     "assets/Uneven.png": "/portfolio/assets/Uneven.png",
     "assets/CV BOISSEAU Romain.pdf": "/portfolio/assets/CV BOISSEAU Romain.pdf",
-    "assets/CV BOISSEAU Romain - English.pdf": "/portfolio/assets/CV BOISSEAU Romain - English.pdf",
+    "assets/Resume BOISSEAU Romain.pdf": "/portfolio/assets/Resume BOISSEAU Romain.pdf",
     "assets/Encapsulation.jpg": "/portfolio/assets/Encapsulation.jpg",
     "assets/Moteur.png": "/portfolio/assets/Moteur.png",
     "assets/uk.png": "/portfolio/assets/uk.png",
@@ -16,11 +16,11 @@
     "assets/slick.woff": "/portfolio/assets/slick.woff",
     "index.html": "/portfolio/index.html",
     "main.383f3c55.css.map": "/portfolio/static/css/main.383f3c55.css.map",
-    "main.71ec5913.js.map": "/portfolio/static/js/main.71ec5913.js.map",
+    "main.bc5cd008.js.map": "/portfolio/static/js/main.bc5cd008.js.map",
     "488.9561f9b8.chunk.js.map": "/portfolio/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.383f3c55.css",
-    "static/js/main.71ec5913.js"
+    "static/js/main.bc5cd008.js"
   ]
 }
