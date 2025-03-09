@@ -12,7 +12,7 @@ const About = () => {
                     Avec de l'expérience en Unity et en C++, mon objectif est de devenir développeur d'un jeu à succès ou de contribuer
                     à des projets déjà établis dans l'industrie. Également, je fais partie de l'équipe de développement du jeu Uneven
                     prochainement disponible sur Steam, actuellement en wishlist.`,
-      skills: ['Unity', 'C++', 'Organisation', "Travail d'équipe"],
+      skills: ['Unity', 'Unreal Engine', 'C++', 'Organisation', "Travail d'équipe"],
     },
     en: {
       title: 'BOISSEAU Romain',
@@ -20,7 +20,7 @@ const About = () => {
                     With experience in Unity and C++, my goal is to become a successful game developer or contribute to already
                     established projects in the industry. Also, I am part of the development team for the game Uneven,
                     soon to be available on Steam, currently on wishlist.`,
-      skills: ['Unity', 'C++', 'Organization', 'Teamwork'],
+      skills: ['Unity', 'Unreal Engine', 'C++', 'Organization', 'Teamwork'],
     }
   };
 

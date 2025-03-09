@@ -1,6 +1,6 @@
 import React from 'react';
 import CV_Fr from '../assets/CV BOISSEAU Romain.pdf'
-import CV_En from '../assets/CV BOISSEAU Romain - English.pdf'
+import CV_En from '../assets/Resume BOISSEAU Romain.pdf'
 import { useLanguage } from '../contexts/LanguageContext';
 
 const DownloadCVButton = () => {
