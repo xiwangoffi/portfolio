@@ -140,12 +140,20 @@ function App() {
       </div>
       <DownloadCVButton />
       <a
-        href="https://www.linkedin.com/in/romain-boisseau-26b294253/" // Remplacez par votre propre URL LinkedIn
+        href="https://www.linkedin.com/in/romain-boisseau-26b294253/"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-16 right-4 bg-blue-800 text-white px-4 py-2 rounded-full flex items-center justify-center shadow-lg hover:bg-blue-600 transition duration-300"
       >
         <i className="fab fa-linkedin-in text-2xl"></i>
+      </a>
+      <a
+        href="https://github.com/RomainGTech?tab=repositories"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-32 right-4 bg-black text-white px-4 py-2 rounded-full flex items-center justify-center shadow-lg hover:bg-gray-600 transition duration-300"
+      >
+        <i className="fab fa-github text-2xl"></i>
       </a>
     </div>
     </LanguageProvider>
