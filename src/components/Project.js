@@ -4,6 +4,7 @@ import Uneven from '../assets/Uneven.png'
 import Moteur from '../assets/Moteur.png'
 import Encapsulation from '../assets/Encapsulation.jpg'
 import Malartre from '../assets/musee-malartre.png'
+import Riwa from '../assets/Riwa.png'
 import { useLanguage } from '../contexts/LanguageContext';
 
 const ProjectCarousel = () => {
@@ -11,6 +12,11 @@ const ProjectCarousel = () => {
 
   const texts = {
     fr: [
+      {
+        image: Riwa,
+        title: 'Riwa',
+        description: "<b>Riwa</b> est un jeu d'égnime et d'exploration développé sur Unity en 3D dans le cadre du Grand Projet Commun pour la dernière année de bachelor au Gaming Campus. En équipe de 24 avec des Artistes, Business, TVs, Musiciens et Développeurs, en 1 mois l'objectif était de créer un jeu mobile commercialisable. Dans ce jeu nous exploitons le changement de temporalité entre passé et présent, diversifiant ainsi les environnements, l'ambiance et les mécaniques. De plus pour cette démo jouable sur téléphone nous avons voulu montrer un maximum de mécanique pouvant à terme être disponible dans la version complète du jeu, tel qu'un damier procédurale, contrôler une âme pouvant agir sur la nature environnante et plus encore.<br></br><b>Prix décerné: <u>Meilleur Gameplay</u></b> <br></br>Github du projet: <a href='https://github.com/Jfabregoule/Riwa' target='_blank' rel='noopener noreferrer' style='color: blue; text-decoration: underline;'>github.com/Riwa</a>"
+      },
       {
         image: Uneven,
         title: 'Uneven',
@@ -33,6 +39,11 @@ const ProjectCarousel = () => {
       },
     ],
     en: [
+      {
+        image: Riwa,
+        title: 'Riwa',
+        description: "<b>Riwa</b> is a puzzle and exploration game developed in 3D using Unity as part of the Grand Projet Commun for the final year of the Bachelor's program at Gaming Campus. Our team of 24 members, including Artists, Business students, Technical designers, Musicians and Developers, had one month to create a commercially viable mobile game. In this game, we explore the concept of shifting between past and present timelines, which adds variety to the environments, atmosphere, and gameplay mechanics. For this mobile demo, we aimed to showcase as many mechanics as possible that could eventually be included in the full version of the game, such as a procedural checkerboard, controlling a soul that can interact with the surrounding nature, and more.<br></br><b>Award Received: <u>Best Gameplay</u></b> <br></br>Github project: <a href='https://github.com/Jfabregoule/Riwa' target='_blank' rel='noopener noreferrer' style='color: blue; text-decoration: underline;'>github.com/Riwa</a>"
+      },
       {
         image: Uneven,
         title: 'Uneven',
