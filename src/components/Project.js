@@ -18,6 +18,11 @@ const ProjectCarousel = () => {
         description: "<b>Riwa</b> est un jeu d'égnime et d'exploration développé sur Unity en 3D dans le cadre du Grand Projet Commun pour la dernière année de bachelor au Gaming Campus. En équipe de 24 avec des Artistes, Business, TVs, Musiciens et Développeurs, en 1 mois l'objectif était de créer un jeu mobile commercialisable. Dans ce jeu nous exploitons le changement de temporalité entre passé et présent, diversifiant ainsi les environnements, l'ambiance et les mécaniques. De plus pour cette démo jouable sur téléphone nous avons voulu montrer un maximum de mécanique pouvant à terme être disponible dans la version complète du jeu, tel qu'un damier procédurale, contrôler une âme pouvant agir sur la nature environnante et plus encore.<br></br><b>Prix décerné: <u>Meilleur Gameplay</u></b> <br></br>Github du projet: <a href='https://github.com/Jfabregoule/Riwa' target='_blank' rel='noopener noreferrer' style='color: blue; text-decoration: underline;'>github.com/Riwa</a>"
       },
       {
+        image: Malartre,
+        title: 'Mystère dans les Halls',
+        description: "Mystère dans les Halls est un jeu mobile 'serious game' pour le musée de l'automobile Henri Malartre à Lyon, réalisé sur Unity dans le cadre d'un projet en bénévolat. L'objectif du projet était de réaliser en équipe une reconstitution au plus proche de la réalité des hangars dans l'environnement 3D d'Unity, ainsi que 3 mini-jeux permettant de faire découvrir aux joueurs le musée et potentiellement donc amener de nouveau visiteur pour le musée. <br /><br /><b>Github du projet privé</b><br /><b>Application disponible sur les stores Apple & Android fin Avril 2025.</b>"
+      },
+      {
         image: Uneven,
         title: 'Uneven',
         description: "Uneven est un jeu réalisé dans le cadre d'un stage de 2ème année au Gaming Campus de Lyon sur une durée de 4 mois que nous avons décidé de prolonger. Uneven est un jeu d'aventure basé sur les assemblages de couleurs ayant chacune leur <b>monde et mécanique respective</b>, réalisé sur Unity 3D. Disponible en 2025 sur Steam, déjà actuellement en Wishlist. <br /><u>Caractéristique de ce projet</u>, nous sommes une équipe de 6 développeurs à plusieurs casquette et d'un Marketing Manager. <br /><b><u>Chef de projet, Développeur, Marketing & Communication:</u></b> Victor MARTINAN <br /><b><u>Développeur & Narrative Designer:</u></b> Lilian LAFIN & Enzo PHILIPPE <br /><b><u>Développeur CC & Environnement:</u></b> Benjamin TURCAT <br /><b><u>Développeur Système & UI | 2D Artist:</u></b> Benjamin ARHANCET <br /><b><u>Développeur IA, VFX & Shader Artist, Bossfight:</u></b> Romain BOISSEAU <br /><b><u>Communication & Marketing:</u></b> Anisse SI LOUIS <br /><b>Linkedin:</b> <a href='https://www.linkedin.com/company/nesaku-games/posts/?feedView=all' target='_blank' rel='noopener noreferrer' style='color: blue; text-decoration: underline;'>https://www.linkedin.com/Nesaku-Games</a>"
@@ -32,17 +37,17 @@ const ProjectCarousel = () => {
         title: 'Encapsulation',
         description: "Le projet d'encapsulation C++ a été réalisé dans le cadre d'un projet avancé en 3ème année visant à exploiter directives du préprocesseur et les principes d'encapsulation en programmation orientée objet. L'objectif principal était de développer une application unique compatible avec deux technologies distinces: <b>SFML</b> et <b>Windows API</b>, tout en garantissant leur coexistence au sein d'un même projet. <br /><br/><b>Objectifs spécifiques:</b> <br /><b>- Implémenter les directives C++ (#ifdef) pour gérer les différences de compilation</b> <br /><b>- Encapsuler rigoureusement les classes pour éviter tout conflit entre SFML et Windows API</b> <br /><b>- Faire rebondir des balles dans une fenêtre graphique</b> <br /><b>- Comparer les performances (FPS) entre SFML et Windows API</b> <br /><br />Ce projet constituait un défi technique intéressant, une encapsulation inadéquate aurait provoqué des conflits et des crashs, mettant en évidence l'importance de structurer et isoler les dépendances dans le code."
       },
-      {
-        image: Malartre,
-        title: 'Mystère dans les Halls',
-        description: "Mystère dans les Halls est un jeu mobile 'serious game' pour le musée de l'automobile Henri Malartre à Lyon, réalisé sur Unity dans le cadre d'un projet en bénévolat. L'objectif du projet était de réaliser en équipe une reconstitution au plus proche de la réalité des hangars dans l'environnement 3D d'Unity, ainsi que 3 mini-jeux permettant de faire découvrir aux joueurs le musée et potentiellement donc amener de nouveau visiteur pour le musée. <br /><br /><b>Github du projet privé</b><br /><b>Application disponible sur les stores Apple & Android fin Avril 2025.</b>"
-      },
     ],
     en: [
       {
         image: Riwa,
         title: 'Riwa',
         description: "<b>Riwa</b> is a puzzle and exploration game developed in 3D using Unity as part of the Grand Projet Commun for the final year of the Bachelor's program at Gaming Campus. Our team of 24 members, including Artists, Business students, Technical designers, Musicians and Developers, had one month to create a commercially viable mobile game. In this game, we explore the concept of shifting between past and present timelines, which adds variety to the environments, atmosphere, and gameplay mechanics. For this mobile demo, we aimed to showcase as many mechanics as possible that could eventually be included in the full version of the game, such as a procedural checkerboard, controlling a soul that can interact with the surrounding nature, and more.<br></br><b>Award Received: <u>Best Gameplay</u></b> <br></br>Github project: <a href='https://github.com/Jfabregoule/Riwa' target='_blank' rel='noopener noreferrer' style='color: blue; text-decoration: underline;'>github.com/Riwa</a>"
+      },
+      {
+        image: Malartre,
+        title: 'Mystère dans les Halls',
+        description: "Mystère dans les Halls is a mobile 'serious game' for the Henri Malartre Automobile Museum in Lyon, developed in Unity as part of a volunteer project. The goal of the project was to work as a team to create a 3D environment in Unity that closely replicates the museum's hangars, as well as three mini-games designed to introduce players to the museum, potentially encouraing new visitors to come. <br /><br /><b>Private Github repository</b> <br /><b>App available on the Apple & Android stores by the end of April 2025</b>"
       },
       {
         image: Uneven,
@@ -58,11 +63,6 @@ const ProjectCarousel = () => {
         image: Encapsulation,
         title: 'Encapsulation',
         description: "The C++ encapsulation project was carried out as part of an advanced third-year project aimed at exploiting preprocessor directives and encapsulation principles in object-oriented programming. The main objective was to develop a unique application compatible with two distinct technologies: <b>SFML</b> and <b>Windows API</b>, while ensuring their coexistence within the same project. <br /><br/><b>Specific objectives:</b> <br /><b>- Implement C++ directives (#ifdef) to manage compilation differences</b> <br /><b>- Rigorously encapsulate classes to avoid conflicts between SFML and Windows API</b> <br /><b>- Make balls bounce in a graphical window</b> <br /><b>- Compare performance (FPS) between SFML and Windows API</b> <br /><br />This project was an interesting technical challenge, as inadequate encapsulation would have caused conflicts and crashes, highlighting the importance of structuring and isolating dependencies in the code."
-      },
-      {
-        image: Malartre,
-        title: 'Mystère dans les Halls',
-        description: "Mystère dans les Halls is a mobile 'serious game' for the Henri Malartre Automobile Museum in Lyon, developed in Unity as part of a volunteer project. The goal of the project was to work as a team to create a 3D environment in Unity that closely replicates the museum's hangars, as well as three mini-games designed to introduce players to the museum, potentially encouraing new visitors to come. <br /><br /><b>Private Github repository</b> <br /><b>App available on the Apple & Android stores by the end of April 2025</b>"
       },
     ]
   };
