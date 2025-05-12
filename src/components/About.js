@@ -10,16 +10,14 @@ const About = () => {
       title: 'BOISSEAU Romain',
       description: `Je suis passionné par le développement informatique, en particulier dans le domaine du jeu vidéo.
                     Avec de l'expérience en Unity et en C++, mon objectif est de devenir développeur d'un jeu à succès ou de contribuer
-                    à des projets déjà établis dans l'industrie. Également, je fais partie de l'équipe de développement du jeu Uneven
-                    prochainement disponible sur Steam, actuellement en wishlist.`,
+                    à des projets déjà établis dans l'industrie.`,
       skills: ['Unity', 'Unreal Engine', 'C++', 'Organisation', "Travail d'équipe"],
     },
     en: {
       title: 'BOISSEAU Romain',
       description: `I am passionate about software development, particularly in the field of video games.
                     With experience in Unity and C++, my goal is to become a successful game developer or contribute to already
-                    established projects in the industry. Also, I am part of the development team for the game Uneven,
-                    soon to be available on Steam, currently on wishlist.`,
+                    established projects in the industry.`,
       skills: ['Unity', 'Unreal Engine', 'C++', 'Organization', 'Teamwork'],
     }
   };
