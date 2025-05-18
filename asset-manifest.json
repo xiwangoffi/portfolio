@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a9316db8.css",
-    "main.js": "/portfolio/static/js/main.d1e55b04.js",
+    "main.js": "/portfolio/static/js/main.05674d3e.js",
     "static/js/488.9561f9b8.chunk.js": "/portfolio/static/js/488.9561f9b8.chunk.js",
     "assets/Uneven.png": "/portfolio/assets/Uneven.png",
     "assets/me.jpg": "/portfolio/assets/me.jpg",
@@ -18,11 +18,11 @@
     "assets/slick.woff": "/portfolio/assets/slick.woff",
     "index.html": "/portfolio/index.html",
     "main.a9316db8.css.map": "/portfolio/static/css/main.a9316db8.css.map",
-    "main.d1e55b04.js.map": "/portfolio/static/js/main.d1e55b04.js.map",
+    "main.05674d3e.js.map": "/portfolio/static/js/main.05674d3e.js.map",
     "488.9561f9b8.chunk.js.map": "/portfolio/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a9316db8.css",
-    "static/js/main.d1e55b04.js"
+    "static/js/main.05674d3e.js"
   ]
 }
