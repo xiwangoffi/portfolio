@@ -93,3 +93,13 @@ code {
     height: 250px;
   }
 }
+
+.slick-dots li button:before {
+  color: white !important;
+  opacity: 0.50; /* légèrement transparent, optionnel */
+}
+
+.slick-dots li.slick-active button:before {
+  color: white !important;
+  opacity: 1; /* le point actif bien visible */
+}
