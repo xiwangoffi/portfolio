@@ -7,14 +7,14 @@ const About = () => {
 
   const texts = {
     fr: {
-      title: 'BOISSEAU Romain',
+      title: 'Romain BOISSEAU',
       description: `Je suis passionné par le développement informatique, en particulier dans le domaine du jeu vidéo.
                     Avec de l'expérience en Unity et en C++, mon objectif est de devenir développeur d'un jeu à succès ou de contribuer
                     à des projets déjà établis dans l'industrie.`,
       skills: ['Unity', 'Unreal Engine', 'C++', 'Organisation', "Travail d'équipe"],
     },
     en: {
-      title: 'BOISSEAU Romain',
+      title: 'Romain BOISSEAU',
       description: `I am passionate about software development, particularly in the field of video games.
                     With experience in Unity and C++, my goal is to become a successful game developer or contribute to already
                     established projects in the industry.`,
