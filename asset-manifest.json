@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.da4185ea.css",
-    "main.js": "/portfolio/static/js/main.95098525.js",
+    "main.js": "/portfolio/static/js/main.4f55135d.js",
     "static/js/488.9561f9b8.chunk.js": "/portfolio/static/js/488.9561f9b8.chunk.js",
     "assets/Uneven.png": "/portfolio/assets/Uneven.png",
     "assets/me.jpg": "/portfolio/assets/me.jpg",
     "assets/Riwa.png": "/portfolio/assets/Riwa.png",
-    "assets/CV BOISSEAU Romain.pdf": "/portfolio/assets/CV BOISSEAU Romain.pdf",
-    "assets/Resume BOISSEAU Romain.pdf": "/portfolio/assets/Resume BOISSEAU Romain.pdf",
+    "assets/CV Romain BOISSEAU.pdf": "/portfolio/assets/CV Romain BOISSEAU.pdf",
+    "assets/Resume Romain BOISSEAU.pdf": "/portfolio/assets/Resume Romain BOISSEAU.pdf",
     "assets/Encapsulation.jpg": "/portfolio/assets/Encapsulation.jpg",
     "assets/musee-malartre.png": "/portfolio/assets/musee-malartre.png",
     "assets/Moteur.png": "/portfolio/assets/Moteur.png",
@@ -18,11 +18,11 @@
     "assets/slick.woff": "/portfolio/assets/slick.woff",
     "index.html": "/portfolio/index.html",
     "main.da4185ea.css.map": "/portfolio/static/css/main.da4185ea.css.map",
-    "main.95098525.js.map": "/portfolio/static/js/main.95098525.js.map",
+    "main.4f55135d.js.map": "/portfolio/static/js/main.4f55135d.js.map",
     "488.9561f9b8.chunk.js.map": "/portfolio/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da4185ea.css",
-    "static/js/main.95098525.js"
+    "static/js/main.4f55135d.js"
   ]
 }
